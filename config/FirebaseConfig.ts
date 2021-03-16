@@ -1,4 +1,4 @@
-// Replace with your firebase config
+//TODO: Replace with your firebase config
 export const firebaseConfig = {
   apiKey: "",
   authDomain: "",
