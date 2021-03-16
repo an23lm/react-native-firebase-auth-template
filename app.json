@@ -1,0 +1,12 @@
+{
+  "name": "firebase-auth-template",
+  "displayName": "firebase-auth-template",
+  "expo": {
+    "name": "firebase-auth-template",
+    "slug": "firebase-auth-template",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
