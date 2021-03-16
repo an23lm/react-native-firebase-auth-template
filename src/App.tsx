@@ -1,7 +1,9 @@
 import React from "react";
 
 import firebase from "firebase";
+import "firebase/auth";
 import { firebaseConfig } from "../config/FirebaseConfig";
+
 import { NavigationContainer } from "@react-navigation/native";
 import RootNavigator from "./navigator";
 import Contexts from "../context";
