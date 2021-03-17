@@ -85,13 +85,12 @@ export default function RegisterPhoneScreen() {
       <Button title="SEND OTP" onPress={sendOtp} />
 
       <Text>Enter OTP</Text>
-      <OTPInputView
-        style={{ width: "80%", height: 200 }}
-        pinCount={6}
-        code={otp}
-        onCodeChanged={setOtp}
-        autoFocusOnLoad
-        onCodeFilled={verifyOtp}
+      <TextInput
+        value={otp}
+        onChangeText={setOtp}
+        keyboardType={"number-pad"}
+        maxLength={6}
+        style={{ borderWidth: 1, borderColor: "#333", padding: 5 }}
       />
 
       <Button title="LOGIN" onPress={verifyOtp} />
