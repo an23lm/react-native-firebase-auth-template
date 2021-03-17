@@ -7,7 +7,6 @@ import React, { useContext, useRef, useState } from "react";
 import { View, Text, TextInput, Button } from "react-native";
 import { IFirebaseOptions } from "expo-firebase-core";
 import AuthContext from "../../context/AuthContext";
-import OTPInputView from "@twotalltotems/react-native-otp-input";
 
 export default function RegisterPhoneScreen() {
   const firebaseRecaptchaVerifier = useRef(null);
