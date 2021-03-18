@@ -1,4 +1,4 @@
-rootProject.name = 'firebase-auth-template'
+rootProject.name = 'firebaseauthtemplate'
 
 apply from: '../node_modules/react-native-unimodules/gradle.groovy'
 includeUnimodulesProjects()
