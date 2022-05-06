@@ -1,2 +1,2 @@
-# react-native-firebase-auth-template
+# React Native Firebase Auth Template
 Bare minimum Firebase Auth Template
